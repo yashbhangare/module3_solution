@@ -1,0 +1,162 @@
+
+/*basic elements*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#body_bg{
+		background-color: rgb(40,40,40);
+
+}
+
+#bold{
+	text-align: center;
+	text-shadow: 20px;
+	color: red;
+	text-shadow: 0.2px;
+}
+
+.blink-two {
+    animation: blinker-two 4s linear infinite;
+    color: white;
+}
+@keyframes blinker-two {  
+    100% { opacity: 0; }
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 1.75em;
+	color: orange;
+}
+
+h2{
+	width: 100%;
+}
+
+p {
+	font-size: 1em;
+	color: red;
+	background-color: black;
+	text-overflow: clip;
+}
+
+/*specific elements*/
+.page {
+	width: 100%;
+}
+
+.item {
+	border: 2px solid orange;
+	background-color: black;
+	color: red;
+	padding: 15px 10px 10px 10px;
+	position: relative;
+}
+
+.heading {
+	border: 1px solid black;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	width: 120px;
+	text-align: center;
+	font-size: 1.25em;
+	position: absolute;
+	margin-top: 0px;
+	top: 0px;
+	right: 0px;
+}
+
+#chic {
+    background-color: black	;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;
+
+}
+
+#sushi {
+	background-color: black	;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;}
+
+#beef {
+	background-color: black	;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;}
+
+/*media queries*/
+/*large size screen*/
+@media (min-width: 992px) {
+	.col-ld-4 {
+		float: left;
+		width: 33.33%;
+		padding: 2%;
+	}
+	a.nav-item{
+		display: none;
+	}
+
+}
+
+/*medium size screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-4 {
+		float: left;
+		width: 50%;
+		padding: 2%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+		padding: 2%;
+	}
+
+	a.nav-item{
+		display: none;
+	}
+
+}
+
+/*small size screen*/
+@media (max-width: 767px) {
+	.col-sd-12 {
+		float: left;
+		width: 100%;
+		padding: 2%;
+	}
+}
+
+.bg-nav{
+	color: red;
+}
+
+div.navbar-brand{
+	height: 100px;
+}
+
+.navbar-toggler-icon{
+	background-color: red;
+	border-color: orange;
+}
+
+.navbar-toggler{
+	background-color: red;
+	border:2px solid red;
+	align-self: right;
+}
+
+#body_bg_collapse_menu{
+	background-color: red;
+}
+
+#a{
+	background-color: grey;
+}
