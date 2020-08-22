@@ -163,7 +163,13 @@ div.navbar-brand{
 }
 
 .navbar-toggle{
+	float:left;
 	border:2px solid orange;
-	background-color: yellow;
-	align-self: right;
+	background-color: #0c1014;
 }
+
+
+
+
+
+
