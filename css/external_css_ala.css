@@ -134,7 +134,7 @@ p {
 	}
 
 	#mid-border{
-		border-bottom: 2px solid orange;
+		border-bottom: 2px solid orange;/*bottom border of collapasable menu -appears after only advisory and abastract schedule*/
 		color:red;
 		}
 	#body_bg_collapse_menu{
@@ -148,9 +148,12 @@ p {
 		}
 
  	.icon-bar {
-    background-color: white ;
+    background-color: white ;/*icon-background color*/
 	}
 
+	.navbar-toggle .icon-bar{
+		background-color: red;/* strips color*/
+	}
 }
 
 
@@ -167,7 +170,7 @@ div.navbar-brand{
 }
 
 .navbar-toggle{
-	float:left;
+	float:right;
 	border:2px solid orange;
 	background-color: #0c1014;
 }
