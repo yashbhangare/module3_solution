@@ -154,8 +154,11 @@ div.navbar-brand{
 
 #body_bg_collapse_menu{
 	background-color: black; /*this is background color of collapsable menu. */
+	border:2px solid orange;
+	margin: 0px 0px 20px 0px;
 }
 
-.nav-ink{
-	background-color: red;
+.nav-link{
+	color: red;
+	text-align: center;
 }
