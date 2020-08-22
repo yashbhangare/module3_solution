@@ -153,10 +153,9 @@ div.navbar-brand{
 }
 
 #body_bg_collapse_menu{
-	background-color: #FAC215; /*this is background color of collapsable menu. */
-	color: white;
+	background-color: #777; /*this is background color of collapsable menu. */
 }
 
 #a{
-	background-color: blue;
+	background-color: orange;
 }
