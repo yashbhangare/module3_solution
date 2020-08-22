@@ -147,6 +147,10 @@ p {
 		text-align: center;
 		}
 
+ 	.icon-bar {
+    background-color: white ;
+	}
+
 }
 
 
@@ -167,9 +171,4 @@ div.navbar-brand{
 	border:2px solid orange;
 	background-color: #0c1014;
 }
-
-
-
-
-
 
