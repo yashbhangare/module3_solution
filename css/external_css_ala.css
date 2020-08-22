@@ -146,12 +146,6 @@ div.navbar-brand{
 	border-color: 2px solid orange;
 }
 
-.navbar-toggler{
-	background-color: grey;
-	border:2px solid red;
-	align-self: right;
-}
-
 .navbar-toggle{
 	border:2px solid orange;
 	background-color: yellow;
@@ -159,7 +153,8 @@ div.navbar-brand{
 }
 
 #body_bg_collapse_menu{
-	background-color: #777; /*this is background color of collapsable menu. */
+	background-color: #FAC215; /*this is background color of collapsable menu. */
+	color: white;
 }
 
 #a{
