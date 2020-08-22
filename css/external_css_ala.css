@@ -132,6 +132,12 @@ p {
 		width: 100%;
 		padding: 2%;
 	}
+	
+.mid-border{
+	border-bottom: 2px solid orange;
+	color: red;
+	}
+	
 }
 
 .bg-nav{
@@ -163,7 +169,4 @@ div.navbar-brand{
 	text-align: center;
 }
 
-#mid-border{
-	border-bottom: 2px solid orange;
-	color: red;
-}
+
