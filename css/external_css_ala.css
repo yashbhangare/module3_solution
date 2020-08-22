@@ -162,3 +162,7 @@ div.navbar-brand{
 	color: red;
 	text-align: center;
 }
+
+#mid-border{
+	border-bottom: 2px solid orange;
+}
