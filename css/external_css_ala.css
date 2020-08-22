@@ -148,7 +148,7 @@ div.navbar-brand{
 }
 
 .navbar-toggler{
-	background-color: red;
+	background-color: grey;
 	border:2px solid red;
 	align-self: right;
 }
