@@ -132,13 +132,23 @@ p {
 		width: 100%;
 		padding: 2%;
 	}
-	
-.mid-border{
-	border-bottom: 2px solid orange;
-	color: red;
-	}
-	
+
+	#mid-border{
+		border-bottom: 2px solid orange;
+		color:red;
+		}
+	#body_bg_collapse_menu{
+		background-color: black; /*this is background color of collapsable menu. */
+		border:2px solid orange;
+		margin: 0px 0px 20px 0px;
+		}
+	.nav-link{
+		color: red;
+		text-align: center;
+		}
+
 }
+
 
 .bg-nav{
 	color: red;
@@ -157,16 +167,3 @@ div.navbar-brand{
 	background-color: yellow;
 	align-self: right;
 }
-
-#body_bg_collapse_menu{
-	background-color: black; /*this is background color of collapsable menu. */
-	border:2px solid orange;
-	margin: 0px 0px 20px 0px;
-}
-
-.nav-link{
-	color: red;
-	text-align: center;
-}
-
-
