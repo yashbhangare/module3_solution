@@ -153,6 +153,12 @@ div.navbar-brand{
 	align-self: right;
 }
 
+.navbar-toggle{
+	border:2px solid orange;
+	background-color: magenta;
+	align-self: right;
+}
+
 #body_bg_collapse_menu{
 	background-color: grey;
 }
