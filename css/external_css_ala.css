@@ -154,12 +154,12 @@ div.navbar-brand{
 
 .navbar-toggle{
 	border:2px solid orange;
-	background-color: #777;
+	background-color: yellow;
 	align-self: right;
 }
 
 #body_bg_collapse_menu{
-	background-color: orange;
+	background-color: #777; /*this is background color of collapsable menu. */
 }
 
 #a{
