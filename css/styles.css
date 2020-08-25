@@ -191,3 +191,7 @@ p{
 @keyframes blinker-two {  
     100% { opacity: 0; }
 }
+
+#width_desk{
+	width:33.33%;
+}
