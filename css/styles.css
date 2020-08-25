@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #000000;
+  color: red;
   background-color: rgb(40,40,40);
   font-family: 'Oxygen', sans-serif;
 }
@@ -19,7 +19,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #000000;
+  color: red;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -79,7 +79,7 @@ h1{
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 10px;
-  background-color: #c2c0c0;
+  background-color: black;
   }
 
 
