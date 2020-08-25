@@ -73,7 +73,7 @@ h1{
 }
 .box, .box2 , .box3{
   display: block;
-  width: 28%;
+  width: 30%;
   height: auto;
   border: 2px solid orange;
   margin-left: 5%;
