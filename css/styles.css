@@ -174,3 +174,11 @@ p{
   /* End Header */
   
 }
+
+.blink-two {
+    animation: blinker-two 4s linear infinite;
+    color: white;
+}
+@keyframes blinker-two {  
+    100% { opacity: 0; }
+}
