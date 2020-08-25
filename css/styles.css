@@ -160,7 +160,9 @@ p{
     text-transform: uppercase;
   }
   /* End Header */
-
+	h2{
+		font-size: 23px;
+	}
 }
 
 
