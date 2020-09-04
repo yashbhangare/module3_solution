@@ -72,12 +72,12 @@ h1{
   font-weight: bold;
 }
 .box, .box2 , .box3{
-  display: block;
-  width: auto;
+  display: inline-table;
+  width: 29%;
   height: auto;
   border: 2px solid orange;
-  margin-left: 5%;
-	margin-right: 5%;
+  margin-left: 4%;
+  //margin-right: 5%;
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -159,6 +159,10 @@ p{
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
+	  
+	.box, .box2 , .box3{
+		width:auto;
+	  }
   }
   /* End Header */
 	h2{
