@@ -137,11 +137,11 @@ p{
 		}
 
 	.box, .box2 , .box3{
-		width:150%;
+		width:100%;
 	  }
 	
 #header-nav {
-	 width : 150%;
+	 width : 100%;
 	}
 }
 
@@ -179,11 +179,11 @@ p{
 	}
 	
 .box, .box2 , .box3{
-		width:120%;
+		width:100%;
 	  }
 	
 #header-nav {
-	 width : 130%;
+	 width : 100%;
 	}
 }
 
@@ -198,11 +198,11 @@ p{
   /* End Header */
   
 	.box, .box2 , .box3{
-		width:115%;
+		width:100%;
 	  }
 	
 #header-nav {
-	 width : 130%;
+	 width : 100%;
 	}
 }
 
