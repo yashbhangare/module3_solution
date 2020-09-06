@@ -137,11 +137,11 @@ p{
 		}
 
 	.box, .box2 , .box3{
-		width:150%;
+		width:75%;
 	  }
 	
 #header-nav {
-	 width : auto;
+	 width : 150%;
 	}
 }
 
