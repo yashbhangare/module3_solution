@@ -162,11 +162,12 @@ p{
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
-	  
+	 } 
 	.box, .box2 , .box3{
-		width:auto;
+		width:100%;
 	  }
-  }
+  
+
   /* End Header */
 	h2{
 		font-size: 23px;
