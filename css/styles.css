@@ -103,6 +103,10 @@ p{
   padding-bottom:20px;
 }
 
+#align_items{
+	text-align : center;
+}
+
 /**** end *****/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
