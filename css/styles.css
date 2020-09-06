@@ -10,7 +10,7 @@ body {
   background-color: black;
   border-radius: 0;
   border: 0;
-  width:110%;
+  width:100%;
 }
 
 
@@ -74,7 +74,7 @@ h1{
 }
 .box, .box2 , .box3{
   display: inline-table;
-  width: 27%;
+  width: 25%;
   height: auto;
   border: 2px solid orange;
   margin-left: 4%;
@@ -86,7 +86,7 @@ h1{
   }
 
 .box3{
-	margin-right: 4%;
+	margin-right: 2%;
 }
 
 h2{
