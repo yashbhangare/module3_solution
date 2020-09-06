@@ -138,7 +138,7 @@ p{
 
 	.box, .box2 , .box3{
 		width:90%;
-		margin-right:2%;
+		margin-right:4%;
 	  }
 	
 #header-nav {
@@ -180,8 +180,8 @@ p{
 	}
 	
 .box, .box2 , .box3{
-		width:100%;
-		margin-right:2%;
+		width:90%;
+		margin-right:4%;
 	  }
 	
 #header-nav {
@@ -200,8 +200,8 @@ p{
   /* End Header */
   
 	.box, .box2 , .box3{
-		width:100%;
-		margin-right:2%;
+		width:90%;
+		margin-right:4%;
 	  }
 	
 #header-nav {
