@@ -236,10 +236,10 @@ p{
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: auto;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin-left: 45%;
   border-radius: 50%;
 }
 
