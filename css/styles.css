@@ -191,6 +191,10 @@ p{
 #header-nav {
 	 width : 100%;
 	}
+	
+.copyright{
+	margin-left:25%;
+		}
 }
 
 
@@ -203,6 +207,10 @@ p{
   }
   /* End Header */
   
+      .copyright{
+	margin-left:25%;
+		}
+	
 	.box, .box2 , .box3{
 		width:90%;
 		margin-right:4%;
@@ -250,4 +258,8 @@ p{
 
 img{
 	width: 100%;
+}
+
+.copyright{
+	margin-left:35%;
 }
