@@ -192,10 +192,6 @@ p{
 	 width : 100%;
 	}
 	
-b.copyright{
-	margin-left:25%;
-		}
-}
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -207,9 +203,7 @@ b.copyright{
   }
   /* End Header */
   
-      b.copyright{
-	margin-left:25%;
-		}
+     
 	
 	.box, .box2 , .box3{
 		width:90%;
@@ -260,6 +254,4 @@ img{
 	width: 100%;
 }
 
-b.copyright{
-	margin-left:35%;
-}
+
