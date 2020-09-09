@@ -92,7 +92,7 @@ h1{
   display: inline-table;
   width: 27%;
   height: auto;
-  //border: 2px solid orange;
+  border: 2px solid grey;
   margin-left: 4%;
   //margin-right: 5%;
   overflow: hidden;
