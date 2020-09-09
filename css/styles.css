@@ -88,6 +88,19 @@ h1{
 	margin-right: 2%;
 }
 
+.foot_box{
+  display: inline-table;
+  width: 27%;
+  height: auto;
+  //border: 2px solid orange;
+  margin-left: 4%;
+  //margin-right: 5%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: black;
+  }
+
 h2{
   text-align: center;
   margin-right: 0;
