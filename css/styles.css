@@ -92,8 +92,8 @@ h1{
   display: inline-table;
   width: 100%;
   height: auto;
-  border: 2px solid grey;
-  margin-left: 47%;
+  //border: 2px solid grey;
+  margin-left: 2%;
   //margin-right: 5%;
   overflow: hidden;
   margin-top: 20px;
