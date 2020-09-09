@@ -22,11 +22,22 @@ body, html {
   top: 0;
   left: 16px;
 }
+  .topright {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
 
 .bottomleft {
   position: absolute;
   bottom: 0;
   left: 16px;
+}
+  
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 2px;
 }
 
 .middle {
@@ -48,18 +59,27 @@ hr {
   <div class="topleft">
     <h1><p style="color:black;"><b>pune.trekkers - visapur</b></p></h1>
   </div>
+  
+   <div class="topright">
+    <h1><p style="color:black;"><b>pune.trekkers - visapur</b></p></h1>
+  </div>
+  
   <div class="middle">
-    <h1>COMING SOON</h1>
+    <h1> Time left to leave </h1>
     <hr>
-    <p id="demo" style="font-size:30px"></p>
-    
+    <p id="demo" style="font-size:30px"></p> 
   </div>
   
   <div class="bottomleft">
     <h2><a href="visapur_photos.html">see_more_photos</a></h2>
   </div>
+  
+  <div class="bottomright">
+    <h2><a href="visapur_photos.html"> &lt-Back </a></h2>
+  </div>
+  
 </div>
-
+topright
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("feb 18, 2021 15:30:00").getTime();
