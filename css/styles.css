@@ -192,7 +192,7 @@ p{
 	 width : 100%;
 	}
 	
-
+}
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
@@ -203,8 +203,6 @@ p{
   }
   /* End Header */
   
-     
-	
 	.box, .box2 , .box3{
 		width:90%;
 		margin-right:4%;
