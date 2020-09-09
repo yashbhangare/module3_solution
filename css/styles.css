@@ -90,16 +90,16 @@ h1{
 
 .foot-box{
   display: inline-table;
-  width: 100%;
+  width: 40%;
   height: auto;
   //border: 2px solid grey;
-  margin-left: 2%;
+  margin-left: 40%;
   //margin-right: 5%;
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 10px;
   //background-color: black;
-  text-align:center;
+  //text-align:center;
   }
 
 h2{
