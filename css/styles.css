@@ -192,7 +192,7 @@ p{
 	 width : 100%;
 	}
 	
-a.copyright{
+b.copyright{
 	margin-left:25%;
 		}
 }
@@ -207,7 +207,7 @@ a.copyright{
   }
   /* End Header */
   
-      a.copyright{
+      b.copyright{
 	margin-left:25%;
 		}
 	
@@ -260,6 +260,6 @@ img{
 	width: 100%;
 }
 
-a.copyright{
+b.copyright{
 	margin-left:35%;
 }
