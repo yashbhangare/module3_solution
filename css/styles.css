@@ -90,7 +90,7 @@ h1{
 
 .foot_box{
   display: inline-table;
-  width: 40%;
+  width: 100%;
   height: auto;
   border: 2px solid grey;
   margin-left: 4%;
@@ -98,7 +98,7 @@ h1{
   overflow: hidden;
   margin-top: 30px;
   margin-bottom: 10px;
-  background-color: black;
+  //background-color: black;
   }
 
 h2{
