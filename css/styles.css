@@ -270,6 +270,6 @@ a{
 color:red ;	
 }
 
-fast-flicker {
+.fast-flicker {
     animation: shine 2s forwards, blink 5s 1s infinite;
 }
