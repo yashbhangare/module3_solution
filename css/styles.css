@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: white;
   //background-color: rgb(40,40,40);
-  background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
+  background: linear-gradient(to right, rgb(15, 52, 67), rgb(52, 232, 158));
   font-family: 'Oxygen', sans-serif;
 }
 
