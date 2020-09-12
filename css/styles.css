@@ -50,9 +50,10 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1.5px solid red;
-  background-color:rgb(40,40,40);
+  border: 1.5px solid #226356;
+  background: linear-gradient(to right, rgb(15, 52, 67), rgb(105,155,134));
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
