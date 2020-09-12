@@ -104,7 +104,7 @@ h1{
   display: inline-table;
   width: auto;
   height: auto;
-  margin-right: 1%;
+  margin-left: 60%;
   overflow: hidden;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -179,6 +179,10 @@ p{
 		margin-right:4%;
 	  }
 	
+.foot-box-right{
+	margin-left:20%;
+	}
+	
 #header-nav {
 	 width : 100%;
 	}
@@ -211,7 +215,10 @@ p{
     text-transform: uppercase;
 	 } 
   
-
+.foot-box-right{
+	margin-left:20%;
+	}
+	
   /* End Header */
 	h2{
 		font-size: 23px;
@@ -235,6 +242,11 @@ p{
     padding-top: 5px;
     font-size: 8vw;
   }
+
+.foot-box-right{
+	margin-left:20%;
+	}
+	
   /* End Header */
   
 	.box, .box2 , .box3{
