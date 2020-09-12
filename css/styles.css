@@ -92,17 +92,24 @@ h1{
 
 .foot-box{
   display: inline-table;
+  width: auto;
+  height: auto;
+  margin-left: 30%;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+.foot-box-copyright{
+  display: inline-table;
   width: 50%;
   height: auto;
-  //border: 2px solid grey;
   margin-left: 30%;
-  //margin-right: 5%;
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 10px;
-  //background-color: black;
-  //text-align:center;
   }
+
 
 h2{
   text-align: center;
