@@ -261,8 +261,8 @@ p{
 }
 
 .fa-instagram {
-  background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
-  color: red;
+  background: linear-gradient(to right, rgb(15, 32, 39), #555, rgb(44, 83, 100));
+  color : #d9edf7;
 }
 
 img{
