@@ -1,7 +1,8 @@
 body {
   font-size: 16px;
-  color: red;
-  background-color: rgb(40,40,40);
+  color: white;
+  //background-color: rgb(40,40,40);
+  background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -20,7 +21,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: red;
+  color: white;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -36,7 +37,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: red;
+  color: white;
   background-color: #1e1010;
   text-align: center;
   font-weight: bold;
@@ -273,3 +274,5 @@ color:red ;
 .fast-flicker {
     animation: shine 2s forwards, blink 5s 1s infinite;
 }
+// background: linear-gradient(to right, rgb(96, 56, 19), rgb(178, 159, 148)); - cool brown
+// background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67)); - green shade pacific dream
