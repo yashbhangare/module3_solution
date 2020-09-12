@@ -233,13 +233,13 @@ p{
 #bold{
 	text-align: center;
 	text-shadow: 20px;
-	color: red;
+	color: white;
 	text-shadow: 0.2px;
 }
 
 .blink-two {
     animation: blinker-two 4s linear infinite;
-    color: white;
+    color: whitesmoke;
 }
 @keyframes blinker-two {  
     100% { opacity: 0; }
