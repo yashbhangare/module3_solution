@@ -57,6 +57,47 @@ hr {
   margin: auto;
   width: 40%;
 }
+  
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 43%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
 </style>
 <body>
 
@@ -74,7 +115,7 @@ hr {
     <hr>
     <p id="demo" style="font-size:30px"></p> 
   </div>
-  
+  <!--
   <div class="bottomleft">
     <h2><a href="visapur_photos.html">see_more_photos</a></h2>
   </div>
@@ -82,6 +123,15 @@ hr {
   <div class="bottomright">
     <h2><a href="index.html"> &lt-Back </a></h2>
   </div>
+  -->
+ 
+  <button class="button" onclick="window.location.href='https://w3docs.com';">
+      See more photos
+  </button>
+  
+ <button class="button" onclick="window.location.href='https://w3docs.com';">
+      Back
+  </button>
   
 </div>
   
