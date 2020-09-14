@@ -18,7 +18,105 @@
 	    width:90%;
 	   margin-right:5%;
 	}
-	    
+
+.bgimg {
+  background-image: url('https://www.nativeplanet.com/img/2018/06/visapur-fort-in-maharashtra-1529064498.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+  a{
+    color:white;  
+  }
+  
+.topleft {
+  position: absolute;
+  top: 0;
+  margin-left: 6%;
+  color: #4822c0 ;
+}
+  .topright {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  margin-left: 6%;
+}
+  
+.bottommiddle{
+  position: absolute;
+  bottom: 0;
+  margin-left:47%;
+  }
+  
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  margin-left:90%;
+}
+
+
+  .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+  
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #263c87;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2em;
+  padding:10 px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
     </style>
 	
   </head>
@@ -39,7 +137,36 @@
 
   <div> 
     <div class="box box-upcoming-trek">
-        <img src="photos_forts/visapur/photos/20170806_084127_1502084804836.jpg" alt="image1">
+        <div class="bgimg">
+  <div class="topleft">
+    <h1><p style="color:#263c87;"><b>pune.trekkers</b></p></h1>
+  </div>
+  
+  
+  <div class="middle">
+    <h1> Time left to leave </h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p> 
+  </div>
+  
+  <div class="bottomleft">
+    <button class="button" onclick="window.location.href='visapur_photos.html';">
+      See more photos
+     </button>
+  </div>
+  
+  <div class="bottommiddle">
+    <button class="button" onclick="window.location.href='https://www.google.com/maps/place/Visapur+killa/@18.7199046,73.4857806,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2a9f33a03e021:0x55e8ec720b03556f!8m2!3d18.7199046!4d73.4879693';">
+      Google map
+     </button>
+  </div>
+  
+  <div class="bottomright">
+    <button class="button" onclick="window.location.href='index.html';">
+      Back
+     </button>
+  </div>
+</div>
     </div>     
   </div>
 
