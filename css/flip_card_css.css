@@ -1,44 +1,88 @@
+:root { --time: 0.707s; }
+
+.cards {
+  display: grid;
+}
+
+.card {
+  perspective: 40rem;
+}
+
+.card-body {
+  display: flex;
+  transform-style: preserve-3d;
+  transition: var(--time) transform;
+
+  .card:hover &, .card:focus & {
+    transform: rotateX(-180deg);
+  }
+}
+
+.card-front, .card-back {
+  backface-visibility: hidden;
+  min-width: 100%;
+}
+
+.card-back {
+  transform: rotateX(-180deg) translate(-100%, 0);
+}
+
+/* Make it Pretty */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  font-family: sans-serif;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+.cards {
+  grid-gap: 1.5rem;
+  grid-auto-rows: 1fr;
+  padding: 3rem;
+  background: whitesmoke;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card {
+  display: flex;
+  transition: z-index, transform calc(var(--time) / 4);
+  transition-delay: var(--time), 0s;
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+  
+  &:hover {
+    transition-delay: 0s;
+    z-index: 1;
+  }
+
+  &:active {
+    transform: scale(0.975);
+  }
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.card-body {
+  border-radius: 0.25rem;
+  flex: 1;
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.card-front, .card-back {
+  @extend .shadow;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.card-front {
+  font-size: 1.5rem;
 }
 
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+.shadow {
+  box-shadow: 0 -1px 1px rgba(0,0,0,0.04), 
+              0 2px 2px rgba(0,0,0,0.04), 
+              0 4px 4px rgba(0,0,0,0.04), 
+              0 8px 8px rgba(0,0,0,0.04),
+              0 16px 16px rgba(0,0,0,0.04); 
 }
